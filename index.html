@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portixel - Уникальный сервер выживания Minecraft">
+    <title>Portixel - Minecraft Server</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="audio-controls">
+        <button id="toggle-music" aria-label="Toggle Music">
+            <span class="music-icon">♫</span>
+        </button>
+    </div>
+
+    <video autoplay muted loop id="background-video">
+        <source src="other-stuff/videoplayback.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+    
+    <main class="content">
+        <header>
+            <img class="logo" src="logo1.png" alt="Portixel logo (FR)" width="405" height="68">
+        </header>
+        
+        <h1 class="server-title">Уникальный сервер выживания!</h1>
+        
+        <div class="buttons-container">
+            <button class="minecraft-button what">Что же тут уникального?</button>
+            <a href="https://discord.gg/dcUpV86NVY"><button class="minecraft-button join">Присоеденится!</button></a>
+            <button class="minecraft-button youtube">Ютуб канал сервера</button>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Что уникального на нашем сервере?</h2>
+                <br>
+                <p>1. Самописные плагины - на сервере много самописных плагинов (хз как это влияет на уникальность)</p>
+                <br>
+                <p>2. Добри админы - админы добрые и всегда помогут!</p>
+                <br>
+                <p>3. Каноничный Дизайн - мы всегда стараемся придерживатся официального стиля Minecraft при этом не нарушая АП.</p>
+                <br>
+                <p>4. Пасхалки - на всех локациях сервера есть пасхалки! (кроме игровых миров)</p>
+                <br>
+                <p>5. Никакого PayToWin'а! - все внутрисерверные покупки совершаются за игровую валюту, ее невозможно купить, она будет зарабатыватся при игре на сервере.</p>
+                <br>
+                <p>Я вижу тебе интересно, раз ты здесь.. Так чего ты ждешь? Заходи скорей!</p>
+            </div>
+        </div>
+    </main>
+
+    <audio id="background-music" src="other-stuff/legend.mp3" loop></audio>
+</body>
+</html>
+
